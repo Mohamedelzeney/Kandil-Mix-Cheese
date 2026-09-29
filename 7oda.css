@@ -1,0 +1,136 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #fdfbf7;
+  color: #2a2421;
+  overflow-x: hidden;
+}
+._creat{
+  color: #e6a100;
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8f5ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #e6a100;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c98c00;
+}
+
+.badge-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.glass-header {
+  background: rgba(253, 251, 247, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.tab-active {
+  border-bottom: 3px solid #e6a100;
+  color: #2a2421;
+  font-weight: 700;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* =================== */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Controls */
+.video-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  display: flex;
+  gap: 10px;
+
+  z-index: 2;
+}
+
+.video-controls button {
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.video-controls button:hover {
+  background: rgba(0, 0, 0, 0.85);
+  transform: scale(1.08);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .video-container {
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+  }
+
+  .video-controls {
+    bottom: 12px;
+    left: 12px;
+    gap: 8px;
+  }
+
+  .video-controls button {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>لوحة التحكم | Mix Cheese Kandil</title>
+  <link rel="shortcut icon" href="imgs/491439669_17927281233051501_8552613808800186182_n.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: {
+      cream:"#FDFBF7", bgLight:"#F8F5EE", charcoal:"#2A2421", mutedBrown:"#5A504B",
+      gold:"#E6A100", goldHover:"#C98C00", goldLight:"#FFF8E7", border:"#E8E2D8" } } } } };
+  </script>
+  <style>
+    body{font-family:"Cairo",sans-serif;background:#fdfbf7;color:#2a2421}
+    .field{width:100%;border:1px solid #e8e2d8;border-radius:.75rem;padding:.6rem .8rem;background:#fff;font-size:.9rem}
+    .field:focus{outline:2px solid #e6a100;outline-offset:1px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-weight:700;font-size:.85rem;padding:.6rem 1rem;border-radius:.75rem;transition:.2s}
+    .btn-gold{background:#e6a100;color:#2a2421}.btn-gold:hover{background:#c98c00}
+    .btn-ghost{background:#fff;border:1px solid #e8e2d8}.btn-ghost:hover{border-color:#e6a100}
+    .btn-danger{background:#b42318;color:#fff}.btn-danger:hover{background:#912018}
+    .nav a{display:flex;align-items:center;gap:.75rem;padding:.7rem 1rem;border-radius:.75rem;color:#e8e2d8;font-weight:600;cursor:pointer}
+    .nav a:hover{background:rgba(255,255,255,.08)}.nav a.active{background:#e6a100;color:#2a2421}
+    .err{color:#b42318;font-size:.75rem;margin-top:.25rem}
+    @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+</head>
+<body class="min-h-screen">
+
+<!-- Setup notice -->
+<div id="setup" class="hidden max-w-lg mx-auto mt-16 p-6 bg-white border border-brand-border rounded-2xl">
+  <h1 class="font-black text-lg mb-2">الإعداد غير مكتمل</h1>
+  <p id="setup-msg" class="text-sm text-brand-mutedBrown"></p>
+</div>
+
+<!-- Login -->
+<main id="login" class="hidden min-h-screen flex items-center justify-center p-4">
+  <form id="login-form" class="w-full max-w-sm bg-white border border-brand-border rounded-2xl p-6 space-y-4 shadow-sm" novalidate>
+    <h1 class="text-xl font-black">تسجيل دخول المسؤول</h1>
+    <div><label class="text-xs font-bold" for="l-email">البريد الإلكتروني</label><input id="l-email" type="email" autocomplete="username" class="field" dir="ltr" required></div>
+    <div><label class="text-xs font-bold" for="l-pass">كلمة المرور</label><input id="l-pass" type="password" autocomplete="current-password" class="field" dir="ltr" required></div>
+    <p id="login-err" class="err"></p>
+    <button class="btn btn-gold w-full" id="login-btn">دخول</button>
+  </form>
+</main>
+
+<!-- App -->
+<div id="app" class="hidden"><div class="min-h-screen lg:flex">
+  <header class="lg:hidden sticky top-0 z-30 bg-brand-charcoal text-white flex items-center justify-between px-4 py-3">
+    <span class="font-black">Mix Cheese Kandil</span>
+    <button id="menu-btn" class="w-10 h-10" aria-label="القائمة"><i class="fa-solid fa-bars"></i></button>
+  </header>
+  <div id="scrim" class="hidden fixed inset-0 bg-black/50 z-30 lg:hidden"></div>
+  <aside id="sidebar" class="fixed lg:sticky top-0 right-0 z-40 h-screen w-64 bg-brand-charcoal p-4 flex flex-col gap-1 transition-transform translate-x-full lg:translate-x-0 shrink-0">
+    <div class="text-white font-black text-lg px-2 py-3">Mix Cheese <span class="text-brand-gold">Kandil</span></div>
+    <nav class="nav flex flex-col gap-1 flex-1">
+<a href="index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square w-5"></i>عرض الموقع</a>
+      <a data-view="dashboard"><i class="fa-solid fa-chart-simple w-5"></i>الرئيسية</a>
+      <a data-view="products"><i class="fa-solid fa-cheese w-5"></i>المنتجات</a>
+      <a data-view="add"><i class="fa-solid fa-plus w-5"></i>إضافة منتج</a>
+      <a data-view="settings"><i class="fa-solid fa-gear w-5"></i>الإعدادات</a>
+    </nav>
+    <div class="nav"><a id="logout"><i class="fa-solid fa-right-from-bracket w-5"></i>تسجيل الخروج</a></div>
+  </aside>
+  <main id="view" class="flex-1 min-w-0 p-4 sm:p-8 max-w-5xl w-full"></main>
+</div></div>
+
+<!-- Delete confirmation -->
+<div id="modal" class="hidden fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4" role="dialog" aria-modal="true">
+  <div class="bg-white rounded-2xl p-6 w-full max-w-sm max-h-[90vh] overflow-auto">
+    <p class="font-black mb-1">هل أنت متأكد من حذف هذا المنتج؟</p>
+    <p id="modal-name" class="text-sm text-brand-mutedBrown mb-5"></p>
+    <div class="flex gap-2 justify-end"><button id="m-cancel" class="btn btn-ghost">إلغاء</button><button id="m-ok" class="btn btn-danger">حذف</button></div>
+  </div>
+</div>
+<div id="toast" class="hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-xl text-sm font-bold shadow-lg"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="supabase-config.js"></script>
+<script src="products-api.js"></script>
+<script src="products-seed.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

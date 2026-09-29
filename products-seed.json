@@ -1,0 +1,587 @@
+[
+ {
+  "id": "p1",
+  "name": "جولد سوسيس",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 110,
+  "rating": 4.8,
+  "reviewsCount": 94,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_سوسيس.webp",
+  "description": "مزيج من الجبن الكيري بقطع من السوسيس و الزيتون و الزعتر",
+  "ingredients": [
+   "جبن كيري",
+   "قطع سوسيس",
+   "قطع زيتون"
+  ]
+ },
+ {
+  "id": "p2",
+  "name": "جولد رومي",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 95,
+  "rating": 4.9,
+  "reviewsCount": 110,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_رومي.webp",
+  "description": "مزيج من الجبن الكيري مع قطع من اجود انواع الجبن الرومي",
+  "ingredients": [
+   "جبن كيري",
+   "قطع جبن رومي",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p3",
+  "name": "جولد فصوص تركي",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 120,
+  "rating": 4.8,
+  "reviewsCount": 80,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_فصوص_تركي.webp",
+  "description": "مزيج من الجبن الكيري مع قطع من فصوص التركي و التوابل",
+  "ingredients": [
+   "جبن كيري",
+   "فصوص تركي",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p4",
+  "name": "جولد روستو فراخ مدخن",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 110,
+  "rating": 4.7,
+  "reviewsCount": 82,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_روستو_فراخ_مدخن.jpg",
+  "description": "مزيج من الجبن الكيري مع قطع من روستو الفراخ المدخنة",
+  "ingredients": [
+   "جبن كيري",
+   "قطع روستو فراخ مدخنة",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p5",
+  "name": "جولد بسطرمه",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 110,
+  "rating": 4.9,
+  "reviewsCount": 90,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_بسطرمه.webp",
+  "description": "مزيج من الجبن الكيري مع قطع البسطرمه الفاخرة",
+  "ingredients": [
+   "جبن كيري",
+   "قطع بسطرمه فاخرة",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p6",
+  "name": "جولد تركي مدخن",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 100,
+  "rating": 4.8,
+  "reviewsCount": 85,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_تركي_مدخن.webp",
+  "variants": [
+   {
+    "weight": "250 جرام",
+    "price": 100,
+    "image": "imgs/items/جولد_تركي_مدخن.webp"
+   },
+   {
+    "weight": "500 جرام",
+    "price": 200,
+    "image": "imgs/items/جولد_تركي_مدخن_500.webp"
+   }
+  ],
+  "description": "مزيج من الجبن الكيري مع قطع التركي المدخن",
+  "ingredients": [
+   "جبن كيري",
+   "قطع تركي مدخن",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p7",
+  "name": "جولد شيدر نيوزلاندي",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 110,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_شيدر_نيوزلندي.webp",
+  "description": "مزيج من الجبن الكيري مع قطع الشيدر النيوزلاندي الفاخر",
+  "ingredients": [
+   "جبن كيري",
+   "قطع شيدر نيوزلاندي",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p8",
+  "name": "جولد فلامنك",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 115,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_شيدر_نيوزلندي.webp",
+  "description": "مزيج من الجبن الكيري مع قطع الفلامنك",
+  "ingredients": [
+   "جبن كيري",
+   "قطع جبن فلامنك",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p9",
+  "name": "جولد  شيدر أفانتي ",
+  "category": "gold",
+  "categoryLabel": "جولد ✨",
+  "price": 100,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "جولد ✨",
+  "spicyLevel": 3,
+  "image": "imgs/items/جولد_شيدر_نيوزلندي.webp",
+  "description": "مزيج من الجبن الكيري مع قطع شيدر الافانتي",
+  "ingredients": [
+   "جبن كيري",
+   "قطع شيدر الافانتي",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p50",
+  "name": " كيري رومي",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 85,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري رومي.webp",
+  "description": "مزيج من الجبن الكيري مع قطع الجبن الرومي",
+  "ingredients": [
+   "جبن كيري",
+   "قطع جبن رومي",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p51",
+  "name": "كيري تركي مدخن",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 85,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري_تركي_مدخن.jpg",
+  "description": "مزيج من الجبن الكيري مع قطع التركي المدخن",
+  "ingredients": [
+   "جبن كيري",
+   "قطع تركي مدخن",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p52",
+  "name": "كيري فلامنك",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 105,
+  "rating": 4.5,
+  "reviewsCount": 60,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري_فلامنك.png",
+  "description": "مزيج من الجبن الكيري مع قطع الفلامنك",
+  "ingredients": [
+   "جبن كيري",
+   "قطع فلامنك",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p53",
+  "name": "كيري فصوص تركي مدخن",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 105,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري_فصوص_تركي_مدخن.jpg",
+  "description": "مزيج من الجبن الكيري مع فصوص التركي المدخن",
+  "ingredients": [
+   "جبن كيري",
+   "فصوص تركي مدخن",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p54",
+  "name": "كيري ريكفورد",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 100,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري_ريكفورد.jpg",
+  "description": "مزيج من الجبن الكيري و الجبن الريكفورد",
+  "ingredients": [
+   "جبن كيري",
+   "جبن ريكفورد",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p55",
+  "name": "ميكس شيدر افانتي",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 95,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/ميكس_شيدر_افانتي.webp",
+  "description": "مزيج من الجبن الكيري و الجبن الريكفورد",
+  "ingredients": [
+   "جبن كيري",
+   "جبن شيدر افانتي",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p56",
+  "name": "كزابلانكا",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 90,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كزابلانكا.webp",
+  "description": "الميكس اللي محدش بيقدر يقاومه",
+  "ingredients": []
+ },
+ {
+  "id": "p57",
+  "name": "كيري روستو فراخ",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 95,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/روستو_تركي.webp",
+  "description": "مزيج من الجبن الكيري و قطع روستو فراخ",
+  "ingredients": [
+   "جبن كيري",
+   "قطع روستو فراخ",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p58",
+  "name": "كيري سوسيس",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 95,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري_سوسيس.webp",
+  "description": "مزيج من الجبن الكيري و قطع السوسيس",
+  "ingredients": [
+   "جبن كيري",
+   "قطع سوسيس",
+   "مايونيز مدخن"
+  ]
+ },
+ {
+  "id": "p59",
+  "name": "كيري بسطرمه",
+  "category": "kiriclassic",
+  "categoryLabel": "كلاسيك كيري 👑",
+  "price": 95,
+  "rating": 5,
+  "reviewsCount": 80,
+  "weight": "250 جرام",
+  "badge": "كلاسيك كيري 👑",
+  "spicyLevel": 3,
+  "image": "imgs/items/كيري_بسطرمه.jpg",
+  "description": "مزيج من الجبن الكيري و قطع البسطرمه",
+  "ingredients": [
+   "جبن كيري",
+   "قطع بسطرمه",
+   "بعض التوابل"
+  ]
+ },
+ {
+  "id": "p100",
+  "name": "سلطة تونة",
+  "category": "salad",
+  "categoryLabel": "سلطات  🥗",
+  "price": 95,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "سلطات  🥗",
+  "spicyLevel": 3,
+  "image": "imgs/items/تونة250.webp",
+  "description": "استمتع بسلطة التونة اللذيذة غنية بالبروتينات",
+  "ingredients": [
+   "تونة فاخرة",
+   " فلفل ألوان",
+   " زيتون",
+   " بصل (اختياري)"
+  ]
+ },
+ {
+  "id": "p101",
+  "name": "سلطة تونة",
+  "category": "salad",
+  "categoryLabel": "سلطات  🥗",
+  "price": 175,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "500 جرام",
+  "badge": "سلطات  🥗",
+  "spicyLevel": 3,
+  "image": "imgs/items/سلطة_تونة.webp",
+  "description": "استمتع بسلطة التونة اللذيذة غنية بالبروتينات",
+  "ingredients": [
+   "تونة فاخرة",
+   " فلفل ألوان",
+   " زيتون",
+   " بصل (اختياري)"
+  ]
+ },
+ {
+  "id": "p300",
+  "name": "جبنة ثلاجة ملح خفيف زيت زيتون و زعتر",
+  "category": "whitecheese",
+  "categoryLabel": "جبنة بيضة  🧀🤍",
+  "price": 90,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "300 جرام",
+  "badge": "جبنة بيضة  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/ثلاجه_ملح_خفيف_زيت_زعتر.webp",
+  "description": "استمتع بالجين الابيض خفيف الملح مع بعض من الزعتر و زيت الزيتون",
+  "ingredients": [
+   "جبن ابيض",
+   "زعتر",
+   "زيت زيتون"
+  ]
+ },
+ {
+  "id": "p301",
+  "name": "قريش زيت زيتون و زعتر و حبة بركة",
+  "category": "whitecheese",
+  "categoryLabel": "جبنة بيضة  🧀🤍",
+  "price": 85,
+  "rating": 4.7,
+  "reviewsCount": 71,
+  "weight": "300 جرام",
+  "badge": "جبنة بيضة  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/حبة_بركة.webp",
+  "description": "استمتع بالجبن القريش مع الزيت زيتون والزعتر و حبة البركة",
+  "ingredients": [
+   "جبن قريش",
+   "زعتر",
+   "زيت زيتون",
+   "حبة بركة"
+  ]
+ },
+ {
+  "id": "p302",
+  "name": "جبنة بيضة قديمة",
+  "category": "whitecheese",
+  "categoryLabel": "جبنة بيضة  🧀🤍",
+  "price": 300,
+  "rating": 4.7,
+  "reviewsCount": 71,
+  "weight": "1 كيلو",
+  "badge": "جبنة بيضة  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/بيضة_قديمة.jpg",
+  "description": "",
+  "ingredients": [
+   "جبنة بيضة قديمة"
+  ]
+ },
+ {
+  "id": "p303",
+  "name": "جبنة بيضة ثلاجة بلدي",
+  "category": "whitecheese",
+  "categoryLabel": "جبنة بيضة  🧀🤍",
+  "price": 150,
+  "rating": 4.7,
+  "reviewsCount": 71,
+  "weight": "1 كيلو",
+  "badge": "جبنة بيضة  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/ثلاجة.jpg",
+  "description": "",
+  "ingredients": [
+   "جبنة بيضة ثلاجة بلدي"
+  ]
+ },
+ {
+  "id": "p304",
+  "name": "جبنة قريش",
+  "category": "whitecheese",
+  "categoryLabel": "جبنة بيضة  🧀🤍",
+  "price": 150,
+  "rating": 4.7,
+  "reviewsCount": 71,
+  "weight": "1 كيلو",
+  "badge": "جبنة بيضة  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/قريش.jpg",
+  "description": "",
+  "ingredients": [
+   "جبنة قريش"
+  ]
+ },
+ {
+  "id": "p400",
+  "name": "جبنة رومي قديمة",
+  "category": "rumicheese",
+  "categoryLabel": "جبنة رومي/تركي  🧀🤍",
+  "price": 300,
+  "rating": 4.6,
+  "reviewsCount": 44,
+  "weight": "1 كيلو",
+  "badge": "جبنة رومي/تركي  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/رومي قديمة.jpg",
+  "description": "",
+  "ingredients": [
+   "جبنة رومي قديمة"
+  ]
+ },
+ {
+  "id": "p401",
+  "name": "جبنة رومي وسط",
+  "category": "rumicheese",
+  "categoryLabel": "جبنة رومي/تركي  🧀🤍",
+  "price": 280,
+  "rating": 4.9,
+  "reviewsCount": 71,
+  "weight": "1 كيلو",
+  "badge": "جبنة رومي/تركي  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/رومي قديمة.jpg",
+  "description": "",
+  "ingredients": [
+   "جبنة رومي وسط"
+  ]
+ },
+ {
+  "id": "p402",
+  "name": "جبنة رومي جديدة",
+  "category": "rumicheese",
+  "categoryLabel": "جبنة رومي/تركي  🧀🤍",
+  "price": 220,
+  "rating": 4.5,
+  "reviewsCount": 51,
+  "weight": "1 كيلو",
+  "badge": "جبنة رومي/تركي  🧀🤍",
+  "spicyLevel": 3,
+  "image": "imgs/items/رومي قديمة.jpg",
+  "description": "",
+  "ingredients": [
+   "جبنة رومي جديدة"
+  ]
+ },
+ {
+  "id": "p200",
+  "name": "مربى فراولة طبيعية",
+  "category": "sweet",
+  "categoryLabel": "الحلو 🍬",
+  "price": 130,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "1 كيلو",
+  "badge": "الحلو 🍬",
+  "spicyLevel": 3,
+  "image": "imgs/items/مربي.png",
+  "description": "مربي فراولة بيتي طبيعية 100% ",
+  "ingredients": [
+   "مربي",
+   "قطع فراولة"
+  ]
+ },
+ {
+  "id": "p201",
+  "name": "شوكولاته سبريد",
+  "category": "sweet",
+  "categoryLabel": "الحلو 🍬",
+  "price": 85,
+  "rating": 4.8,
+  "reviewsCount": 81,
+  "weight": "250 جرام",
+  "badge": "الحلو 🍬",
+  "spicyLevel": 3,
+  "image": "imgs/items/شوكولاته_سبريد.jpg",
+  "description": "شوكولاته سبريد ولا أروع للسندوتشات والاطفال في المدرسة",
+  "ingredients": [
+   "شوكولاته فاخرة"
+  ]
+ }
+]
