@@ -7,6 +7,12 @@ body {
 ._creat{
   color: #e6a100;
 }
+._mylinked{
+  transition: .3s;
+}
+._mylinked:hover{
+  color: aqua;
+}
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
