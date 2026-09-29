@@ -547,7 +547,7 @@ function sendCartToWhatsApp() {
   message += `%0A*المبلغ الإجمالي:* ${total} ج.م%0A`;
   message += `%0Aيرجى تأكيد الطلب وتحديد عنوان التوصيل. شكراً!`;
 
-  const whatsappURL = `https://wa.me/201550815484?text=${message}`;
+  const whatsappURL = `https://wa.me/201551561092?text=${message}`;
   window.open(whatsappURL, "_blank");
 }
 
