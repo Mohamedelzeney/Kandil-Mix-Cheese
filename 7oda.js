@@ -470,8 +470,8 @@ function updateCartUI() {
     (sum, item) => sum + item.price * item.quantity,
     0,
   );
-  const deliveryFee = subtotal > 0 ? 30 : 0;
-  const total = subtotal + deliveryFee;
+
+  const total = subtotal;
 
   // Update Badge Counters
   document.getElementById("cart-badge-count").innerText = totalItems;
@@ -540,10 +540,9 @@ function sendCartToWhatsApp() {
     (sum, item) => sum + item.price * item.quantity,
     0,
   );
-  const total = subtotal + 30;
+  const total = subtotal;
 
   message += `%0A*الإجمالي الفرعي:* ${subtotal} ج.م`;
-  message += `%0A*رسوم التوصيل:* 30 ج.م`;
   message += `%0A*المبلغ الإجمالي:* ${total} ج.م%0A`;
   message += `%0Aيرجى تأكيد الطلب وتحديد عنوان التوصيل. شكراً!`;
 
